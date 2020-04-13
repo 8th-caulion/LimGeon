@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LimGeon Intro</title>
+    <h1>About LimGeon</h1>
+</head>
+
+
+
+<body>
+    {% block contents %}
+    {% endblock %}
+</body>
+
+
+
+<footer>
+    <h5><a href="{% url 'main' %}">LimGeon</a></h5>
+    <h5><a href="{% url 'personality' %}">Personality</a></h5>
+    <h5><a href="{% url 'hobby' %}">hobby</a></h5>
+    <h5><a href="{% url 'service' %}">service</a></h5>
+</footer>
+</html>
